@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="25" started-at="2019-01-08T09:38:59Z" finished-at="2019-01-08T09:38:59Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="25" started-at="2019-01-08T09:38:59Z" finished-at="2019-01-08T09:38:59Z">
+    </test> <!-- chromeTest -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

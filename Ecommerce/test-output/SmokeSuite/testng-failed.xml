@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]" parallel="tests">
+  <test thread-count="5" name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.project.Ecommerce.CheckBox1">
+        <methods>
+          <include name="checkboxTest"/>
+        </methods>
+      </class> <!-- com.project.Ecommerce.CheckBox1 -->
+      <class name="com.project.Ecommerce.LinksTesting1">
+        <methods>
+          <include name="linktesting1"/>
+        </methods>
+      </class> <!-- com.project.Ecommerce.LinksTesting1 -->
+      <class name="com.project.Ecommerce.TC_004">
+        <methods>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.project.Ecommerce.TC_004 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

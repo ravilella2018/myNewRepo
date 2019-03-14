@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="tests"> 
+
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+		</run>
+	</groups>
+    
+  <test thread-count="5" name="chromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.project.Ecommerce.TC_004"/>
+      <class name="com.project.Ecommerce.LinksTesting1"/>
+      <class name="com.project.Ecommerce.CheckBox1"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+  
+  
+</suite> <!-- SmokeSuite -->
