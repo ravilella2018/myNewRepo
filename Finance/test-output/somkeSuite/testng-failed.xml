@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [somkeSuite]">
+  <test thread-count="5" name="smokeTest(failed)">
+    <classes>
+      <class name="com.project.Finance2.CheckBox1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="checkboxTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.project.Finance2.CheckBox1 -->
+      <class name="com.project.Finance2.LinksTesting1">
+        <methods>
+          <include name="linktesting1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.Finance2.LinksTesting1 -->
+      <class name="com.project.Finance2.RadioButton1">
+        <methods>
+          <include name="checkboxTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.project.Finance2.RadioButton1 -->
+    </classes>
+  </test> <!-- smokeTest(failed) -->
+</suite> <!-- Failed suite [somkeSuite] -->

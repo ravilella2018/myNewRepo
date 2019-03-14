@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite"  >
+	<groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+	
+  <test  name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.project.Finance2.CheckBox1"/>
+      <class name="com.project.Finance2.RadioButton1"/>
+      <class name="com.project.Finance2.LinksTesting1"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+  
+</suite> <!-- SmokeSuite -->
